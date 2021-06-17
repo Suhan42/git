@@ -5,3 +5,5 @@
 开发工具：Eclipse
 
 Java版本：JDK 1.8
+
+将 test 文件导入eclipse中就可以直接运行
