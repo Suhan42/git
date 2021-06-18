@@ -19,7 +19,7 @@ public class 内部类调用 {
 				for(int i=0; i<3; i++, num++) 
 					System.out.print(num+" ");
 			}
-			};
+		};
 		an.out();
 	}
 }

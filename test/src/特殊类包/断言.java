@@ -9,7 +9,7 @@ public class 断言 {
 		for(int number:score) {
 			//断言，在运行时不可用
 			//Run Configurations/Arguments/VM arguments: -ea启动调试
-			assert number > 0:"不能是负数";
+			assert number > 0:"不能是负数";		//断言
 			sum = sum+number;
 		}
 		System.out.println(sum);
