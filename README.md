@@ -26,4 +26,4 @@ p1p2p3是接口练习的一部分
 
 #### 4.[文件操作](https://github.com/Suhan42/Java-30-days/tree/master/test/src/%E7%89%B9%E6%AE%8A%E7%B1%BB%E5%8C%85)
 
-
+#### 5.[其他例子](https://github.com/Suhan42/Java-30-days/tree/master/test/src/eg)
