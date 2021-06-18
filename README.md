@@ -13,4 +13,4 @@ Java版本：JDK 1.8
 1. ex1
 2. 初始值_
 
-[./tset/文件夹的说明.md](url)
+[https://github.com/Suhan42/java-30-days/tset/文件夹的说明.md](url)
