@@ -11,4 +11,4 @@ Java版本：JDK 1.8<br>
 1. ex1
 2. 初始值_
 
-[https://github.com/Suhan42/java-30-days/tset/文件夹的说明.md](url)
+[文件夹说明](https://github.com/Suhan42/Java-30-days/blob/master/test/%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E8%AF%B4%E6%98%8E.md "说明")
