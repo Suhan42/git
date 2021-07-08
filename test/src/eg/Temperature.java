@@ -1,7 +1,10 @@
 package eg;
 //6.11
 import java.util.Scanner;
-//简单温度计算
+
+/*简单温度计算
+ * Q = M*(终止t - 初始t)*4184
+ */
 public class Temperature {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

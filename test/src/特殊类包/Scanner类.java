@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Scanner类 {
 	public static void main(String[] args) {
-		Scanner reader = new Scanner(System.in);
+		Scanner reader = new Scanner(System.in);	//表示输入设备是键盘
 		
 		boolean bool;
 		byte b;

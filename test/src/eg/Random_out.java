@@ -1,12 +1,12 @@
 package eg;
 //6.11
 import java.util.Scanner;
-//random产生随机0~1之间的数
+//random产生随机 [0,1)之间的数
 public class Random_out {
 	//输出n-m之间的随机数
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.println("输入开头结尾：");
+		System.out.println("输入开头结尾（数字）：");
 		int n, m;
 		n = in.nextInt();
 		m = in.nextInt();

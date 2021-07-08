@@ -19,5 +19,4 @@ public class Test1 {
 		//еп╣х
 		System.out.println(stu[0].equals(stu[3]));
 	}
-
 }

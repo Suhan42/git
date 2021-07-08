@@ -1,6 +1,10 @@
 package eg;
 //5.18
 
+
+/*有点问题*/
+
+
 //类内数据接口后排序和判等
 public  class Student implements Comparable<Student>{		//实现接口，保证自然顺序
 	private String id;
