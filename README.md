@@ -6,7 +6,7 @@ Java版本：JDK 1.8<br>
 
 将 test 文件导入eclipse中就可以直接运行<br>
 
-[文件夹说明](https://github.com/Suhan42/Java-30-days/blob/master/test/%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E8%AF%B4%E6%98%8E.md "说明")
+[文件夹说明](https://github.com/Suhan42/Java-30-days/blob/master/test/README.md)
 ## 学习顺序
 #### 1.[test](https://github.com/Suhan42/Java-30-days/tree/master/test/src/test)：基本操作
 1. ex1
