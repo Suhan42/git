@@ -1,7 +1,7 @@
 package eg;
-//Å£°¡£¬ÕæµÄÅ£±Æ
+//ç‰›å•Šï¼ŒçœŸçš„ç‰›é€¼
 public class CEISHI {
 	public static void main(String[] args) {
-	System.out.println("Å£±Æ");
+	System.out.println("ç‰›é€¼");
 	}
 }
