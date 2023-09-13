@@ -1,11 +1,11 @@
-package ÊäÈë_Êä³öÁ÷;
+package è¾“å…¥_è¾“å‡ºæµ;
 //6.1
 import java.io.*;
 
-public class ×Ö½ÚÁ÷_ÇĞ¸î {
+public class å­—èŠ‚æµ_åˆ‡å‰² {
 
 	public static void main(String[] args) {
-		int bufSize = 1024*100; //1024¾ÍÊÇ1k£¬ÕâÀï³Ë100
+		int bufSize = 1024*100; //1024å°±æ˜¯1kï¼Œè¿™é‡Œä¹˜100
 		byte[] buf = new byte[bufSize];
 		InputStream in = null;
 		OutputStream out = null;
@@ -13,7 +13,7 @@ public class ×Ö½ÚÁ÷_ÇĞ¸î {
 		int count;
 
 		
-	//ÇĞ¸î
+	//åˆ‡å‰²
 		try {
 			in = new FileInputStream("./demo\\src\\233.rar");
 			count = 1;
@@ -30,11 +30,11 @@ public class ×Ö½ÚÁ÷_ÇĞ¸î {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("ÇĞ¸î Success");
+		System.out.println("åˆ‡å‰² Success");
 		
 
 		
-	//ºÏ²¢
+	//åˆå¹¶
 		try {
 			count = 1;
 			out = new FileOutputStream("./demo\\back.rar");
@@ -56,7 +56,7 @@ public class ×Ö½ÚÁ÷_ÇĞ¸î {
 			e.printStackTrace();
 		}
 		
-		System.out.println("ºÏ²¢ Success");
+		System.out.println("åˆå¹¶ Success");
 
 		
 	}

@@ -5,14 +5,14 @@ import java.util.Scanner;
 
 public class GetRoot {
 	
-/*Çó¶þÔªÒ»´Î·½³ÌµÄ½â
- *¡÷=b*b-4*a*c
+/*æ±‚äºŒå…ƒä¸€æ¬¡æ–¹ç¨‹çš„è§£
+ *â–³=b*b-4*a*c
  */
 	public static void main(String[] args) {
 		double x1, x2, a, b, c, d;
 		Scanner in = new Scanner(System.in);
 		
-		System.out.println("ÇëÒÀ´ÎÊäÈëa, b, c");
+		System.out.println("è¯·ä¾æ¬¡è¾“å…¥a, b, c");
 		a=in.nextDouble();
 		b=in.nextDouble();
 		c=in.nextDouble();
@@ -23,17 +23,17 @@ public class GetRoot {
 		if(d>0) {
 			x1=(-b + Math.sqrt(d))/2*a;
 			x2=(-b - Math.sqrt(d))/2*a;
-			System.out.println("·½³ÌÓÐÁ½¸öroot£¬·Ö±ðÊÇ"+x1+"ºÍ"+x2);
+			System.out.println("æ–¹ç¨‹æœ‰ä¸¤ä¸ªrootï¼Œåˆ†åˆ«æ˜¯"+x1+"å’Œ"+x2);
 		}
 		if(d==0) {
 			x1=(-b - Math.sqrt(d))/2*a;
-			System.out.println("·½³ÌÓÐÒ»¸öroot£¬x="+x1);
+			System.out.println("æ–¹ç¨‹æœ‰ä¸€ä¸ªrootï¼Œx="+x1);
 		}
 		else {
 			double aa, bb;
 			aa = -b/2*a;
 			bb = Math.sqrt(-d)/2*a;
-			System.out.println("·½³ÌÃ»ÓÐÊµ¸ù£¬µ«ÊÇÓÐÐé¸ù£¬·Ö±ðÊÇ£º"+aa+"+"+bb+"i  ºÍ  "+aa+"-"+bb+"i");
+			System.out.println("æ–¹ç¨‹æ²¡æœ‰å®žæ ¹ï¼Œä½†æ˜¯æœ‰è™šæ ¹ï¼Œåˆ†åˆ«æ˜¯ï¼š"+aa+"+"+bb+"i  å’Œ  "+aa+"-"+bb+"i");
 		}
 
 	}

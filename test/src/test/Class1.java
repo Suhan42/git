@@ -1,20 +1,20 @@
 package test;
 //3.30
 import java.util.Scanner;
-	//¼ÆËãÌİĞÎÃæ»ı
+	//è®¡ç®—æ¢¯å½¢é¢ç§¯
 
-public class Class1 {		//ÀàÃûÒ»°ãÓÃÊ××ÖÄ¸´óĞ´
+public class Class1 {		//ç±»åä¸€èˆ¬ç”¨é¦–å­—æ¯å¤§å†™
 	
-//³ÉÔ±±äÁ¿£¬ÔÚ¶Ñ£¬ÓĞÄ¬ÈÏÖµÎª0
-	//ÊµÀı±äÁ¿£¬Ã¿¸ö¶ÔÏó¶¼ÓĞµ¥¶ÀµÄÒ»·İ
+//æˆå‘˜å˜é‡ï¼Œåœ¨å †ï¼Œæœ‰é»˜è®¤å€¼ä¸º0
+	//å®ä¾‹å˜é‡ï¼Œæ¯ä¸ªå¯¹è±¡éƒ½æœ‰å•ç‹¬çš„ä¸€ä»½
 	int height;
-	//¾²Ì¬±äÁ¿£¬Ö»ÓĞÒ»·İ£¬±äÒ»¸ö¶¼±ä
-	static int above;//ÉÏµ×
-	static int bottom;//ÏÂµ×
+	//é™æ€å˜é‡ï¼Œåªæœ‰ä¸€ä»½ï¼Œå˜ä¸€ä¸ªéƒ½å˜
+	static int above;//ä¸Šåº•
+	static int bottom;//ä¸‹åº•
 	
-	//·½·¨Ò²ÓĞ¾²Ì¬·Ç¾²Ì¬Ö®·Ö£¬¾²Ì¬·½·¨ÄÚÖ»ÄÜµ÷ÓÃ¾²Ì¬±äÁ¿£¨ÀıÈçmain£©£¬·Ç¾²Ì¬¶¼¿ÉÒÔµ÷ÓÃ
+	//æ–¹æ³•ä¹Ÿæœ‰é™æ€éé™æ€ä¹‹åˆ†ï¼Œé™æ€æ–¹æ³•å†…åªèƒ½è°ƒç”¨é™æ€å˜é‡ï¼ˆä¾‹å¦‚mainï¼‰ï¼Œéé™æ€éƒ½å¯ä»¥è°ƒç”¨
 	void setheight(int height) {
-		this.height=height;//³£ÓÃ·½Ê½
+		this.height=height;//å¸¸ç”¨æ–¹å¼
 	}
 	
 	int putnum(){
@@ -23,9 +23,9 @@ public class Class1 {		//ÀàÃûÒ»°ãÓÃÊ××ÖÄ¸´óĞ´
 	
 	
 	public static void main(String[] args) {
-		//¾Ö²¿±äÁ¿£¬ÔÚÕ»
-		String str="ÇëÊäÈëÉÏµ×¡¢ÏÂµ×¡¢¸ß£º";
-		//ÈıÖÖ±äÁ¿Êä³ö
+		//å±€éƒ¨å˜é‡ï¼Œåœ¨æ ˆ
+		String str="è¯·è¾“å…¥ä¸Šåº•ã€ä¸‹åº•ã€é«˜ï¼š";
+		//ä¸‰ç§å˜é‡è¾“å‡º
 		Class1 hc=new Class1();
 		System.out.print(hc.height);
 		
@@ -33,7 +33,7 @@ public class Class1 {		//ÀàÃûÒ»°ãÓÃÊ××ÖÄ¸´óĞ´
 		
 		System.out.println(str);
 		
-		//¼ÆËãÃæ»ı
+		//è®¡ç®—é¢ç§¯
 		Scanner win =new Scanner(System.in);
 		above=win.nextInt();
 		bottom=win.nextInt();
@@ -43,7 +43,7 @@ public class Class1 {		//ÀàÃûÒ»°ãÓÃÊ××ÖÄ¸´óĞ´
 		
 		System.out.println(hc.putnum());
 		
-		//·½·¨µÄÊ¹ÓÃºÍ±äÁ¿ÀàËÆ£¬Èç¹ûµ¥ÓÃÒ»¸ö·Ç¾²Ì¬·½·¨£¬¿ÉÒÔ£º
+		//æ–¹æ³•çš„ä½¿ç”¨å’Œå˜é‡ç±»ä¼¼ï¼Œå¦‚æœå•ç”¨ä¸€ä¸ªéé™æ€æ–¹æ³•ï¼Œå¯ä»¥ï¼š
 		System.out.println((new Class1()).putnum());
 	}
 }

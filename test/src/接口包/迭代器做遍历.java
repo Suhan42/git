@@ -1,9 +1,9 @@
-package ½Ó¿Ú°ü;
+package æ¥å£åŒ…;
 //4.30
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class µü´úÆ÷×ö±éÀú {
+public class è¿­ä»£å™¨åšéå† {
 	public static void main(String []args) {
 		
 		char word = 64;
@@ -13,7 +13,7 @@ public class µü´úÆ÷×ö±éÀú {
 			al.add(word+" ");
 		}
 		
-		//·µ»Øµü´úÆ÷
+		//è¿”å›è¿­ä»£å™¨
 		Iterator<String> it = al.iterator();
 		
 		while(it.hasNext()){

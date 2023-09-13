@@ -1,5 +1,5 @@
-package ½Ó¿Ú°ü;
+package æ¥å£åŒ…;
 //4.27
-public interface InterfaceÀı×ÓPI {
+public interface Interfaceä¾‹å­PI {
 	double pi = Math.PI;
 }

@@ -1,32 +1,32 @@
-package ÊäÈë_Êä³öÁ÷;
+package è¾“å…¥_è¾“å‡ºæµ;
 //5.28
 import java.io.File;
 import java.io.IOException;
 
-public class ÎÄ¼ş²Ù×÷ {
+public class æ–‡ä»¶æ“ä½œ {
 	public static void main(String[] args) {
 		File f = new File("D:\\workspace\\test","example.txt");
 		if(f.exists()) {
-			System.out.println(f.getName()+"ÊÇ¿É¶ÁµÄÂğ£º"+f.canRead());
-			System.out.println(f.getName()+"µÄ³¤¶È£º"+f.length());
-			System.out.println(f.getName()+"µÄ¾ø¶ÔÂ·¾¶£º"+f.getAbsolutePath());
+			System.out.println(f.getName()+"æ˜¯å¯è¯»çš„å—ï¼š"+f.canRead());
+			System.out.println(f.getName()+"çš„é•¿åº¦ï¼š"+f.length());
+			System.out.println(f.getName()+"çš„ç»å¯¹è·¯å¾„ï¼š"+f.getAbsolutePath());
 		}
 		
 		File f2 = new File("new.txt");
 		try {
-			f2.createNewFile();		//´´½¨ĞÂÎÄ¼ş
+			f2.createNewFile();		//åˆ›å»ºæ–°æ–‡ä»¶
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
 		if(f2.exists()) 
-			System.out.println(f2.getName()+"ÊÇ¿É¶ÁµÄÂğ£º"+f2.canRead());
-		f2.delete();		//É¾³ıÎÄ¼ş
+			System.out.println(f2.getName()+"æ˜¯å¯è¯»çš„å—ï¼š"+f2.canRead());
+		f2.delete();		//åˆ é™¤æ–‡ä»¶
 		if(!f2.exists()) 
-			System.out.println(f2.getName()+"²»´æÔÚ");
+			System.out.println(f2.getName()+"ä¸å­˜åœ¨");
 		
 		
 		
-//´ò¿ª¼ÇÊÂ±¾
+//æ‰“å¼€è®°äº‹æœ¬
 		Runtime ce = Runtime.getRuntime();
 		File n = new File("C:/windows","Notepad.exe");
 		try {

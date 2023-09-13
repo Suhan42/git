@@ -5,13 +5,11 @@ public class Class2_1 {
 		int h;
 		int a;
 		int b;
-		//³õÊ¼»¯
 		public Class2_1() {
 			h=2;
 			a=3;
 			b=4;
 		}
-		//¸³Öµ
 		public Class2_1(int h, int a, int b) {
 			this.h=h;
 			this.a=a;
@@ -20,5 +18,5 @@ public class Class2_1 {
 		int outarea() {
 			return (a+b)*h/2;
 		}
-		
+
 }

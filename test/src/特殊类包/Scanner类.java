@@ -1,10 +1,10 @@
-package ÌØÊâÀà°ü;
+package ç‰¹æ®Šç±»åŒ…;
 //5.21
 import java.util.Scanner;
 
-public class ScannerÀà {
+public class Scannerç±» {
 	public static void main(String[] args) {
-		Scanner reader = new Scanner(System.in);	//±íÊ¾ÊäÈëÉè±¸ÊÇ¼üÅÌ
+		Scanner reader = new Scanner(System.in);	//è¡¨ç¤ºè¾“å…¥è®¾å¤‡æ˜¯é”®ç›˜
 		
 		boolean bool;
 		byte b;
@@ -22,18 +22,18 @@ public class ScannerÀà {
 		l = reader.nextLong();
 		f = reader.nextFloat();
 		d = reader.nextDouble();
-		str = reader.next();		//nextÔÚÊäÈëÖĞ£¬tab¡¢¿Õ¸ñ¡¢»Ø³µ¶¼¿ÉÒÔ½áÊø¡£µ«ÊÇ£¬ÔÚnextÖĞ»Ø³µÖ®ºó£¬nextLine¾Í²»ÄÜÊäÈë¶«Î÷ÁË
-		ss = reader.nextLine();		//nextLineÔÚÊäÈëÖĞ£¬Ö»ÓĞ»Ø³µ¿ÉÒÔ½áÊø
+		str = reader.next();		//nextåœ¨è¾“å…¥ä¸­ï¼Œtabã€ç©ºæ ¼ã€å›è½¦éƒ½å¯ä»¥ç»“æŸã€‚ä½†æ˜¯ï¼Œåœ¨nextä¸­å›è½¦ä¹‹åï¼ŒnextLineå°±ä¸èƒ½è¾“å…¥ä¸œè¥¿äº†
+		ss = reader.nextLine();		//nextLineåœ¨è¾“å…¥ä¸­ï¼Œåªæœ‰å›è½¦å¯ä»¥ç»“æŸ
 		
-		reader.close();				//¹Ø±Õ£¬²»È»»á¾¯¸æ
+		reader.close();				//å…³é—­ï¼Œä¸ç„¶ä¼šè­¦å‘Š
 		
 		
-		System.out.print("bool:"+bool+"    byte:"+b);		//printÊä³ö²»»á»»ĞĞ
-		System.out.println("    short:"+s+"    int:"+i);		//printlnÊä³ö»á×Ô¶¯»»ĞĞ
+		System.out.print("bool:"+bool+"    byte:"+b);		//printè¾“å‡ºä¸ä¼šæ¢è¡Œ
+		System.out.println("    short:"+s+"    int:"+i);		//printlnè¾“å‡ºä¼šè‡ªåŠ¨æ¢è¡Œ
 		System.out.println("long:"+l+"    float:"+f+"    string:"+str);
 		
-		System.out.printf("%d    %s\n", i, ss);		//\n»»ĞĞ
-		System.out.printf("%5d\n", i);			//Êä³öintĞÍÊı¾İ£¬Õ¼5ĞĞ
-		System.out.printf("%5.4f", d);			//Êä³ö¸¡µãĞÍÊı¾İ£¬Õ¼5ĞĞ£¬Ğ¡Êıµã±£Áô4Î»
+		System.out.printf("%d    %s\n", i, ss);		//\næ¢è¡Œ
+		System.out.printf("%5d\n", i);			//è¾“å‡ºintå‹æ•°æ®ï¼Œå 5è¡Œ
+		System.out.printf("%5.4f", d);			//è¾“å‡ºæµ®ç‚¹å‹æ•°æ®ï¼Œå 5è¡Œï¼Œå°æ•°ç‚¹ä¿ç•™4ä½
 	}
 }

@@ -1,40 +1,40 @@
-package ÌØÊâÀà°ü;
+package ç‰¹æ®Šç±»åŒ…;
 //5.14
 import java.io.UnsupportedEncodingException;
 
-public class stringÀà {
-	//Ö»¶Á²»Ğ´
-	//²»¿ÉĞ´£¬»áÌá¸ß¶ÁµÄËÙ¶È£¬½ÚÊ¡ÄÚ´æ
+public class stringç±» {
+	//åªè¯»ä¸å†™
+	//ä¸å¯å†™ï¼Œä¼šæé«˜è¯»çš„é€Ÿåº¦ï¼ŒèŠ‚çœå†…å­˜
 	public static void main(String[] args) {
-		//t1,t2ÊÇ new ³öÀ´µÄ£¬ËùÒÔÊÇÁ½¸ö±äÀà
-		String t1 = new String("one");//t1ÊÇÒıÓÃ±äÁ¿£¬´æµØÖ·
+		//t1,t2æ˜¯ new å‡ºæ¥çš„ï¼Œæ‰€ä»¥æ˜¯ä¸¤ä¸ªå˜ç±»
+		String t1 = new String("one");//t1æ˜¯å¼•ç”¨å˜é‡ï¼Œå­˜åœ°å€
 		String t2 = new String("one");
 		System.out.println(t1==t2);
-		//compareTo·½·¨°´ÕÕ×ÖµäĞòÓë²ÎÊıÖ¸¶¨µÄString¶ÔÏó½øĞĞ¶Ô±È£¨ÕâÀïÊÇt1-t2£©
+		//compareToæ–¹æ³•æŒ‰ç…§å­—å…¸åºä¸å‚æ•°æŒ‡å®šçš„Stringå¯¹è±¡è¿›è¡Œå¯¹æ¯”ï¼ˆè¿™é‡Œæ˜¯t1-t2ï¼‰
 		int r1 = t1.compareTo(t2);		//t1-t2
-		//equalsÊÇStringµÄÒ»¸ö·½·¨£¬Ò²ÊÇÅĞµÈ±È½Ï
+		//equalsæ˜¯Stringçš„ä¸€ä¸ªæ–¹æ³•ï¼Œä¹Ÿæ˜¯åˆ¤ç­‰æ¯”è¾ƒ
 		boolean r2 = t1.equals(t2);		
 		System.out.println("t1-t2="+r1+"\nequals is:"+r2);
 		
-		//ss,ttËäÈ»ÊÇ²»Í¬ĞĞ´´½¨µÄÀà£¬µ«ÊÇÄÚÈİÒ»Ñù£¬£¨¾­ÓÅ»¯ºó£©ËùÒÔÊÇÒ»¸öÀà£¨Ö¸ÏòÍ¬Ò»¸öÀàµØÖ·£©
+		//ss,ttè™½ç„¶æ˜¯ä¸åŒè¡Œåˆ›å»ºçš„ç±»ï¼Œä½†æ˜¯å†…å®¹ä¸€æ ·ï¼Œï¼ˆç»ä¼˜åŒ–åï¼‰æ‰€ä»¥æ˜¯ä¸€ä¸ªç±»ï¼ˆæŒ‡å‘åŒä¸€ä¸ªç±»åœ°å€ï¼‰
 		String ss ="two";
 		String tt ="two";
-		//Ö»ÓĞStringÊÇÅĞµÈµÄ
+		//åªæœ‰Stringæ˜¯åˆ¤ç­‰çš„
 		System.out.println(ss==tt);
 		
-		//ÒòÎªÕâÀïÊÇ new ³öÀ´µÄ£¬ËùÒÔÊÇ²»Í¬Ò»¸öÀà
+		//å› ä¸ºè¿™é‡Œæ˜¯ new å‡ºæ¥çš„ï¼Œæ‰€ä»¥æ˜¯ä¸åŒä¸€ä¸ªç±»
 		Object o1 = new Object();
 		Object o2 = new Object();
-		boolean r3 = o1.equals(o2);		//ÕâÀïµÄ equals ºÍÖ±½ÓÅĞµÈ == Í¬Ò»Ğ§¹û£¬ÊÇ±È½ÏµØÖ·
+		boolean r3 = o1.equals(o2);		//è¿™é‡Œçš„ equals å’Œç›´æ¥åˆ¤ç­‰ == åŒä¸€æ•ˆæœï¼Œæ˜¯æ¯”è¾ƒåœ°å€
 		System.out.println(r3);
-		//lengthÊÇStringµÄÒ»¸ö·½·¨£¬·µ»Ø´®µÄ³¤¶È
+		//lengthæ˜¯Stringçš„ä¸€ä¸ªæ–¹æ³•ï¼Œè¿”å›ä¸²çš„é•¿åº¦
 		System.out.println(ss.length());
 		System.out.println();
 //---------------------------------------------------------
 		
-	//Æ´´®
-		String s1 = "Äã";
-		String s2 = "ºÃ";
+	//æ‹¼ä¸²
+		String s1 = "ä½ ";
+		String s2 = "å¥½";
 		String s12;
 		s12 = s1+s2;
 		System.out.println(s12);
@@ -45,35 +45,43 @@ public class stringÀà {
 		System.out.println();
 //---------------------------------------------------------
 		
-	//·½·¨
+	//æ–¹æ³•
 		String str1 = "you are good javahhh  ";
 		String str2 = "what are you from";
-		//startsWith·½·¨ÅĞ¶Ïµ±Ç°String¶ÔÏóÇ°ÃæÊÇ²»ÊÇÖ¸¶¨µÄ£¨ÕâÀïÊÇyou£©
+		//startsWithæ–¹æ³•åˆ¤æ–­å½“å‰Stringå¯¹è±¡å‰é¢æ˜¯ä¸æ˜¯æŒ‡å®šçš„ï¼ˆè¿™é‡Œæ˜¯youï¼‰
 		System.out.println("str1: "+str1.startsWith("you"));
 		System.out.println("str2: "+str2.startsWith("you"));
-		//Í¬ÀíendsWith·½·¨ÅĞ¶Ïµ±Ç°String¶ÔÏó×îºóÃæÊÇ²»ÊÇÖ¸¶¨µÄ£¨ÕâÀïÊÇa£©
+		//åŒç†endsWithæ–¹æ³•åˆ¤æ–­å½“å‰Stringå¯¹è±¡æœ€åé¢æ˜¯ä¸æ˜¯æŒ‡å®šçš„ï¼ˆè¿™é‡Œæ˜¯aï¼‰
 		System.out.println(str1.endsWith("a"));
 		
-		//contains·½·¨ÅĞ¶Ïµ±Ç°String¶ÔÏóÊÇ·ñ°üº¬Ä³Ò»²ÎÊı£¨ÕâÀïÊÇgood£©
-		System.out.println("str1°üº¬µÄ "+str1.contains("good"));
+		//containsæ–¹æ³•åˆ¤æ–­å½“å‰Stringå¯¹è±¡æ˜¯å¦åŒ…å«æŸä¸€å‚æ•°ï¼ˆè¿™é‡Œæ˜¯goodï¼‰
+		System.out.println("str1åŒ…å«çš„?"+str1.contains("good"));
 		
-		//indexOf·½·¨·µ»ØÖ¸¶¨×Ö·û£¨ÕâÀïÊÇgood£©ÔÚString¶ÔÏóÖĞµÄµÚÒ»´Î³öÏÖ´¦µÄË÷Òı£¬Èç¹û´Ë×Ö·û´®ÖĞÃ»ÓĞÕâÑùµÄ×Ö·û£¬Ôò·µ»Ø-1
+		//indexOfæ–¹æ³•è¿”å›æŒ‡å®šå­—ç¬¦ï¼ˆè¿™é‡Œæ˜¯goodï¼‰åœ¨Stringå¯¹è±¡ä¸­çš„ç¬¬ä¸€æ¬¡å‡ºç°å¤„çš„ç´¢å¼•ï¼Œå¦‚æœæ­¤å­—ç¬¦ä¸²ä¸­æ²¡æœ‰è¿™æ ·çš„å­—ç¬¦ï¼Œåˆ™è¿”å›-1
 		System.out.println(str1.indexOf("good"));
 		System.out.println(str1.indexOf("sd"));
 		
-		//substring·½·¨¸´ÖÆÔ­String¶ÔÏóÖĞµÄ(¿ªÊ¼¸´ÖÆµÄÏÂ±ê£¬½áÊøµÄÏÂ±ê)
+		//substringæ–¹æ³•å¤åˆ¶åŸStringå¯¹è±¡ä¸­çš„(å¼€å§‹å¤åˆ¶çš„ä¸‹æ ‡ï¼Œç»“æŸçš„ä¸‹æ ‡)
 		String str11 = str1.substring(1,5);
 		System.out.println(str11);
 		
-		//trim·½·¨¸´ÖÆÔ­String¶ÔÏóµÄÄÚÈİ£¬µ«ÊÇÈ¥µô¸Ã¶ÔÏóÄ©Î²µÄ¿Õ¸ñ
+		//trimæ–¹æ³•å¤åˆ¶åŸStringå¯¹è±¡çš„å†…å®¹ï¼Œä½†æ˜¯å»æ‰è¯¥å¯¹è±¡æœ«å°¾çš„ç©ºæ ¼
 		String str1_trim = str1.trim();
 		System.out.println(str1);
 		System.out.println(str1_trim);
 		
+	//åˆ†å‰²
+		System.out.println("åˆ†å‰²");
+		String[] sp = str1.split(",");//åˆ†å‰²å¹¶ä¸”æ”¾å…¥æ•°ç»„ä¸­
+				for(int i=0; i<sp.length; i++){
+					System.out.println(sp[i]);
+				}
+
+		
 		System.out.println();
 //-------------------------------------------------------------------------
 		
-	//×Ö·û´®×ª»¯
+	//å­—ç¬¦ä¸²è½¬åŒ–
 		int x;
 		double d;
 		byte b;
@@ -87,19 +95,25 @@ public class stringÀà {
 		f = Float.parseFloat(str0);
 		System.out.println(x+" "+d+" "+b+" "+l+" "+f);
 		
+		
 		char []c = new char[3];
 		String strc = "nihao";
-		//getChars·½·¨£¬ÕâÀï´ÓstrcµÄÏÂ±êÎª1µ½3(ÊÇµ½<4)£¬¸´ÖÆµ½Êı×écÖĞ£¬´Ó0¿ªÊ¼
+		//getCharsæ–¹æ³•ï¼Œè¿™é‡Œä»strcçš„ä¸‹æ ‡ä¸º1åˆ°3(æ˜¯åˆ°<4)ï¼Œå¤åˆ¶åˆ°æ•°ç»„cä¸­ï¼Œä»char[0]å¼€å§‹
 		strc.getChars(1, 4, c, 0);
 		System.out.println(c);
-		//toCharArray·½·¨°ÑÇ°ÃæµÄÄÚÈİ±äÎªchar´æ´¢
+		
+		//toCharArrayæ–¹æ³•æŠŠå‰é¢çš„å†…å®¹å˜ä¸ºcharå­˜å‚¨
 		char []cc = "hello world!".toCharArray();
 		System.out.println(cc);
+		
+		//charAt() æ–¹æ³•ç”¨äºè¿”å›æŒ‡å®šç´¢å¼•å¤„çš„å­—ç¬¦ã€‚ç´¢å¼•èŒƒå›´ä¸ºä» 0 åˆ° length() - 1ã€‚
+		char result = strc.charAt(3);
+        System.out.println(result);
 		
 		
 		try {
 			@SuppressWarnings("unused")
-			byte []bb = "hello world!".getBytes("UTF-8");		//getBytes°ÑÇ°Ãæ×ª»»³É×Ö½Ú£¬Ê¹ÓÃutf-8(ÏêÏ¸¼û../ÊäÈë_Êä³öÁ÷/×Ö½ÚÁ÷.java)
+			byte []bb = "hello world!".getBytes("UTF-8");		//getBytesæŠŠå‰é¢è½¬æ¢æˆå­—èŠ‚ï¼Œä½¿ç”¨utf-8(è¯¦ç»†è§../è¾“å…¥_è¾“å‡ºæµ/å­—èŠ‚æµ.java)
 		} catch (UnsupportedEncodingException e1) {
 			e1.printStackTrace();
 		}
@@ -111,14 +125,14 @@ public class stringÀà {
 		
 		double sum=0, item=0;
 		boolean computable=true;
-		//ÃüÁîĞĞ²ÎÊıargs
+		//å‘½ä»¤è¡Œå‚æ•°args
 		for(String s:args) {
 			try{
 				item = Double.parseDouble(s);
 				sum = sum+item;
 			}
 			catch(NumberFormatException e) {
-				System.out.println("ÄúÊäÈëÁË·Ç·¨×Ö·û£º"+e);
+				System.out.println("æ‚¨è¾“å…¥äº†éæ³•å­—ç¬¦ï¼š"+e);
 				computable = false;
 			}
 		}

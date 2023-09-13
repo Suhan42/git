@@ -1,8 +1,8 @@
-package ÌØÊâÀà°ü;
+package ç‰¹æ®Šç±»åŒ…;
 //4.25
-public class Final_abstract¹Ø¼ü×Ö {
+public class Final_abstractå…³é”®å­— {
 	public static void main(String []args) {
-		//final³£Á¿
+		//finalå¸¸é‡
 		final String a = "19510187956";
 		Si SIM = new Mobile();
 		SIM.setNumber(a);
@@ -11,22 +11,22 @@ public class Final_abstract¹Ø¼ü×Ö {
 	}
 }
 
-//³éÏóÀà
+//æŠ½è±¡ç±»
 abstract class Si{
-	/* 1.²»ÄÜÓÃ new À´´´½¨¶ÔÏó£¬µ«¿ÉÒÔ½«Æä¶ÔÏó×ö ÉÏ×ªĞÍ¶ÔÏó£¨Ê¹ÓÃ×ÓÀà£©
-	 * 2.³éÏóÀàÀïÃæ¿ÉÒÔÓĞ³éÏó·½·¨£¨abstract·½·¨£©,Ò²¿ÉÒÔÃ»ÓĞ
-	  * ÕâÀï³éÏó·½·¨Ã»ÓĞ¹¹½¨
+	/* 1.ä¸èƒ½ç”¨ new æ¥åˆ›å»ºå¯¹è±¡ï¼Œä½†å¯ä»¥å°†å…¶å¯¹è±¡åš ä¸Šè½¬å‹å¯¹è±¡ï¼ˆä½¿ç”¨å­ç±»ï¼‰
+	 * 2.æŠ½è±¡ç±»é‡Œé¢å¯ä»¥æœ‰æŠ½è±¡æ–¹æ³•ï¼ˆabstractæ–¹æ³•ï¼‰,ä¹Ÿå¯ä»¥æ²¡æœ‰
+	  * è¿™é‡ŒæŠ½è±¡æ–¹æ³•æ²¡æœ‰æ„å»º
 	 */
 	public abstract void setNumber(String n);
 	public abstract String giveN();
 	public abstract String giveCorpName();
 }
 
-//finalÀà ²»ÄÜ±»¼Ì³Ğ£¨¼´²»ÄÜÓĞ×ÓÀà£©
+//finalç±» ä¸èƒ½è¢«ç»§æ‰¿ï¼ˆå³ä¸èƒ½æœ‰å­ç±»ï¼‰
 final class Mobile extends Si{
 	String number;
 	
-	//final·½·¨ ²»ÄÜ±»×ÓÀàÖØĞ´£¬Ö»ÄÜ¼Ì³Ğ
+	//finalæ–¹æ³• ä¸èƒ½è¢«å­ç±»é‡å†™ï¼Œåªèƒ½ç»§æ‰¿
 	public final void setNumber(String n) {
 		number = n;
 	}
@@ -36,15 +36,15 @@ final class Mobile extends Si{
 	}
 	@Override
 	public final String giveCorpName() {
-		return "ÖĞ¹úÒÆ¶¯";
+		return "ä¸­å›½ç§»åŠ¨";
 	}
 }
 
-//finalÀà ²»ÄÜ±»¼Ì³Ğ£¨¼´²»ÄÜÓĞ×ÓÀà£©
+//finalç±» ä¸èƒ½è¢«ç»§æ‰¿ï¼ˆå³ä¸èƒ½æœ‰å­ç±»ï¼‰
 final class Unicom extends Si{
 	String number;
 	
-	//final·½·¨ ²»ÄÜ±»×ÓÀàÖØĞ´£¬Ö»ÄÜ¼Ì³Ğ
+	//finalæ–¹æ³• ä¸èƒ½è¢«å­ç±»é‡å†™ï¼Œåªèƒ½ç»§æ‰¿
 	public final void setNumber(String n) {
 		number = n;
 	}
@@ -54,6 +54,6 @@ final class Unicom extends Si{
 	}
 	@Override
 	public final String giveCorpName() {
-		return "ÖĞ¹úÁªÍ¨";
+		return "ä¸­å›½è”é€š";
 	}
 }

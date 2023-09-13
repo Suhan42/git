@@ -1,8 +1,8 @@
 package test;
 //4.9
-import p1.p2.p3.In_p3;//引用别的类库
+import p1.p2.p3.In_p3;//寮曠敤鍒殑绫诲簱
 
-public class 引用包_可变参数 {
+public class 寮曠敤鍖卂鍙彉鍙傛暟 {
 	
 	static void out(int ...x) {
 		for(int i=0; i<x.length; i++) {

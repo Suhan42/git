@@ -2,11 +2,11 @@ package eg;
 //5.18
 
 
-/*ÓĞµãÎÊÌâ*/
+/*æœ‰ç‚¹é—®é¢˜*/
 
 
-//ÀàÄÚÊı¾İ½Ó¿ÚºóÅÅĞòºÍÅĞµÈ
-public  class Student implements Comparable<Student>{		//ÊµÏÖ½Ó¿Ú£¬±£Ö¤×ÔÈ»Ë³Ğò
+//ç±»å†…æ•°æ®æ¥å£åæ’åºå’Œåˆ¤ç­‰
+public  class Student implements Comparable<Student>{		//å®ç°æ¥å£ï¼Œä¿è¯è‡ªç„¶é¡ºåº
 	private String id;
 	private String name;
 	
@@ -23,7 +23,7 @@ public  class Student implements Comparable<Student>{		//ÊµÏÖ½Ó¿Ú£¬±£Ö¤×ÔÈ»Ë³Ğò
 		return name;
 	}
 
-	//ÖØĞ´
+	//é‡å†™
 	public int compareTo(Student arg0) {
 		return this.name.compareTo(arg0.getName());
 	}

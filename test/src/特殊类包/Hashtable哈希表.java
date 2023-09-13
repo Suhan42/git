@@ -1,8 +1,8 @@
-package ÌØÊâÀà°ü;
+package ç‰¹æ®Šç±»åŒ…;
 //7.7
 import java.util.Hashtable;
 
-public class Hashtable¹şÏ£±í {
+public class Hashtableå“ˆå¸Œè¡¨ {
 	public static void main(String[] args) {
 		
 		Hashtable<String, String> h = new Hashtable<String, String>();

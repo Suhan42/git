@@ -1,18 +1,18 @@
-package ÌØÊâÀà°ü;
+package ç‰¹æ®Šç±»åŒ…;
 //5.21
 import java.util.StringTokenizer;
 
-//StringTokenizerÀà½«×Ö·û´®½øĞĞ·Ö¸ô
-public class StringTokenizerÀà {
+//StringTokenizerç±»å°†å­—ç¬¦ä¸²è¿›è¡Œåˆ†éš”
+public class StringTokenizerç±» {
 	public static void main(String[] args) {
 		String str = "google,baidu,facebook,zhihu,suhan";
-		StringTokenizer st = new StringTokenizer(str, ",");		//ÕâÀïÊÇ°Ñstr·Å½øÈ¥Ö®ºóÖ¸¶¨ , Îª·Ö¸ô±ê¼Ç£¨ÕâÀïµÄstrÒ²¿ÉÒÔÖ±½ÓÊÇ´®£©
+		StringTokenizer st = new StringTokenizer(str, ",");		//è¿™é‡Œæ˜¯æŠŠstræ”¾è¿›å»ä¹‹åæŒ‡å®š , ä¸ºåˆ†éš”æ ‡è®°ï¼ˆè¿™é‡Œçš„strä¹Ÿå¯ä»¥ç›´æ¥æ˜¯ä¸²ï¼‰
 		
-		while(st.hasMoreTokens()) { 	 //hasMoreTokens()·µ»ØÊÇ·ñ»¹ÓĞ·Ö¸ô·û
-            System.out.println(st.nextToken());			//nextToken()·µ»Ø´Óµ±Ç°Î»ÖÃµ½ÏÂÒ»¸ö·Ö¸ô·ûµÄ×Ö·û´®
+		while(st.hasMoreTokens()) { 	 //hasMoreTokens()è¿”å›æ˜¯å¦è¿˜æœ‰åˆ†éš”ç¬¦
+            System.out.println(st.nextToken());			//nextToken()è¿”å›ä»å½“å‰ä½ç½®åˆ°ä¸‹ä¸€ä¸ªåˆ†éš”ç¬¦çš„å­—ç¬¦ä¸²
         }
 		
 		StringTokenizer st2 = new StringTokenizer("you,are good#programmer:engineer", " ");
-		System.out.println(st2.nextToken("#"));		//nextToken(String delim)µ½Ö¸¶¨µÄ·Ö¸ô·û·µ»Ø½á¹û
+		System.out.println(st2.nextToken("#"));		//nextToken(String delim)åˆ°æŒ‡å®šçš„åˆ†éš”ç¬¦è¿”å›ç»“æœ
 	}
 }

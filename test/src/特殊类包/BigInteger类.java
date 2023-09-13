@@ -1,9 +1,9 @@
-package ÌØÊâÀà°ü;
+package ç‰¹æ®Šç±»åŒ…;
 //5.25
 import java.math.BigInteger;
 
-//´¦ÀíÌØ±ğ´óµÄÕûÊı
-public class BigIntegerÀà {
+//å¤„ç†ç‰¹åˆ«å¤§çš„æ•´æ•°
+public class BigIntegerç±» {
 	
 	static int x = 2;
 	
@@ -13,34 +13,34 @@ public class BigIntegerÀà {
 		BigInteger two = new BigInteger("1204567890");
 		BigInteger three = new BigInteger("-1209257039");
 		
-		sum = one.add(two);			//Ïà¼Ó£¨ºÍ£©
-		System.out.println("ºÍ£º"+sum);
+		sum = one.add(two);			//ç›¸åŠ ï¼ˆå’Œï¼‰
+		System.out.println("å’Œï¼š"+sum);
 		
-		sum = one.subtract(two);	//Ïà¼õone - two£¨²î£©
-		System.out.println("²î£º"+sum);
+		sum = one.subtract(two);	//ç›¸å‡one - twoï¼ˆå·®ï¼‰
+		System.out.println("å·®ï¼š"+sum);
 		
-		sum = one.multiply(two);	//Ïà³Ë£¨»ı£©
-		System.out.println("»ı£º"+sum);
+		sum = one.multiply(two);	//ç›¸ä¹˜ï¼ˆç§¯ï¼‰
+		System.out.println("ç§¯ï¼š"+sum);
 		
-		sum = one.divide(two);		//Ïà³ı£¨ÉÌ£©
-		System.out.println("ÉÌ£º"+sum);
+		sum = one.divide(two);		//ç›¸é™¤ï¼ˆå•†ï¼‰
+		System.out.println("å•†ï¼š"+sum);
 		
-		sum = one.remainder(two);	//ÓàÊı
-		System.out.println("Óà£º"+sum);
+		sum = one.remainder(two);	//ä½™æ•°
+		System.out.println("ä½™ï¼š"+sum);
 		
-		int a = one.compareTo(two);	//·µ»ØÁ½¶ÔÏóµÄ±È£¬1£º´óÓÚ¡£-1£ºĞ¡ÓÚ¡£0£ºµÈÓÚ
-		System.out.println("¹ØÏµ£º"+a);
+		int a = one.compareTo(two);	//è¿”å›ä¸¤å¯¹è±¡çš„æ¯”ï¼Œ1ï¼šå¤§äºã€‚-1ï¼šå°äºã€‚0ï¼šç­‰äº
+		System.out.println("å…³ç³»ï¼š"+a);
 		
-		sum = three.abs();			//·µ»Ø¾ø¶ÔÖµ
-		System.out.println("abs£º"+sum);
+		sum = three.abs();			//è¿”å›ç»å¯¹å€¼
+		System.out.println("absï¼š"+sum);
 		
-		sum = one.pow(x);			//·µ»Ø one µÄ 2 ´Î·½
-		System.out.println(x+"´Î·½£º"+sum);
+		sum = one.pow(x);			//è¿”å› one çš„ 2 æ¬¡æ–¹
+		System.out.println(x+"æ¬¡æ–¹ï¼š"+sum);
 		
 		String str = one.toString();
 		System.out.println(str);
 		
-		str = one.toString(x);		//·µ»Øµ±Ç°ÊıµÄ 2 ½øÖÆ×Ö·û´®
+		str = one.toString(x);		//è¿”å›å½“å‰æ•°çš„ 2 è¿›åˆ¶å­—ç¬¦ä¸²
 		System.out.println(str);
 	}
 }

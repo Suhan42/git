@@ -1,38 +1,38 @@
-package ÌØÊâÀà°ü;
+package ç‰¹æ®Šç±»åŒ…;
 //5.25
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-/* ÈÕÆÚÀà£¬ÌÔÌ­ÁËDate
- * Õâ¸öÀàÊÇÒ»¸ö³éÏóÀà
- * ËùÒÔ²»ÄÜ new
+/* æ—¥æœŸç±»ï¼Œæ·˜æ±°äº†Date
+ * è¿™ä¸ªç±»æ˜¯ä¸€ä¸ªæŠ½è±¡ç±»
+ * æ‰€ä»¥ä¸èƒ½ new
 */
-public class CalendarÀà {
+public class Calendarç±» {
 	public static void main(String[] args) {
-		//ÏÂÃæÕâÁ½¸ö³õÊ¼»¯¶ÔÏóÒ»Ñù
+		//ä¸‹é¢è¿™ä¸¤ä¸ªåˆå§‹åŒ–å¯¹è±¡ä¸€æ ·
 		Calendar ca1 = Calendar.getInstance();
 		@SuppressWarnings("unused")
 		Calendar ca2 = new GregorianCalendar();
 		
 		int year = ca1.get(Calendar.YEAR);
-		int month = ca1.get(Calendar.MONDAY)+1;	//0ÊÇÒ»ÔÂµİÔöµ½11±íÊ¾Ê®¶şÔÂ
-		int day = ca1.get(Calendar.DATE);		//Õâ¸öDATEÆäÊµºÍDAY_OF_MONTHÒ»¸öĞ§¹û£¬Í¬Ñù×÷ÓÃ
+		int month = ca1.get(Calendar.MONDAY)+1;	//0æ˜¯ä¸€æœˆé€’å¢åˆ°11è¡¨ç¤ºåäºŒæœˆ
+		int day = ca1.get(Calendar.DATE);		//è¿™ä¸ªDATEå…¶å®å’ŒDAY_OF_MONTHä¸€ä¸ªæ•ˆæœï¼ŒåŒæ ·ä½œç”¨
 		@SuppressWarnings("unused")
 		int day2 = ca1.get(Calendar.DAY_OF_MONTH);
-		int dayOfWeek = ca1.get(Calendar.DAY_OF_WEEK)-1;	//1±íÊ¾ÖÜÈÕ£¬7±íÊ¾ÖÜÁù
+		int dayOfWeek = ca1.get(Calendar.DAY_OF_WEEK)-1;	//1è¡¨ç¤ºå‘¨æ—¥ï¼Œ7è¡¨ç¤ºå‘¨å…­
 		int dayOfYear = ca1.get(Calendar.DAY_OF_YEAR);
 		int weekOfMonth = ca1.get(Calendar.WEEK_OF_MONTH);
 		int weekOfYear = ca1.get(Calendar.WEEK_OF_YEAR);
 		@SuppressWarnings("unused")
-		int hour = ca1.get(Calendar.HOUR);			//12Ğ¡Ê±ÖÆ
-		int hour2 = ca1.get(Calendar.HOUR_OF_DAY);	//24Ğ¡Ê±ÖÆ
+		int hour = ca1.get(Calendar.HOUR);			//12å°æ—¶åˆ¶
+		int hour2 = ca1.get(Calendar.HOUR_OF_DAY);	//24å°æ—¶åˆ¶
 		
 		int minute = ca1.get(Calendar.MINUTE);
 		int sec = ca1.get(Calendar.SECOND);
 		
-		System.out.println(year+"Äê"+0+month+"ÔÂ"+day+"ÈÕ£¬ÊÇĞÇÆÚ"+dayOfWeek);
-		System.out.println("ÏÖÔÚÊÇ"+hour2+":"+minute+":"+sec);
-		System.out.println("½ñÌìÊÇ½ñÄêµÄµÚ"+dayOfYear+"Ìì£¬\nÕâÖÜÊÇÕâ¸öÔÂµÄµÚ"+weekOfMonth+"ÖÜ£¬ÊÇ½ñÄêµÄµÚ"+weekOfYear+"ÖÜ");
+		System.out.println(year+"å¹´"+0+month+"æœˆ"+day+"æ—¥ï¼Œæ˜¯æ˜ŸæœŸ"+dayOfWeek);
+		System.out.println("ç°åœ¨æ˜¯"+hour2+":"+minute+":"+sec);
+		System.out.println("ä»Šå¤©æ˜¯ä»Šå¹´çš„ç¬¬"+dayOfYear+"å¤©ï¼Œ\nè¿™å‘¨æ˜¯è¿™ä¸ªæœˆçš„ç¬¬"+weekOfMonth+"å‘¨ï¼Œæ˜¯ä»Šå¹´çš„ç¬¬"+weekOfYear+"å‘¨");
 	}
 }

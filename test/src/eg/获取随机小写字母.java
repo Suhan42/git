@@ -2,12 +2,12 @@ package eg;
 //6.18
 
 
-/*Ê¹ÓÃSystem.currentTimeMillis()ÏÔÊ¾ÈÎÒâÒ»¸öĞ¡Ğ´×ÖÄ¸
+/*ä½¿ç”¨System.currentTimeMillis()æ˜¾ç¤ºä»»æ„ä¸€ä¸ªå°å†™å­—æ¯
  */
-public class »ñÈ¡Ëæ»úĞ¡Ğ´×ÖÄ¸ {
+public class è·å–éšæœºå°å†™å­—æ¯ {
 	public static void main(String[] args) {
-		long t = System.currentTimeMillis();		//»ñÈ¡Ò»´®Êı
-		int r = (int)(t%26);						//×ª»¯³É [0,25] Ö®¼äµÄÊı
+		long t = System.currentTimeMillis();		//è·å–ä¸€ä¸²æ•°
+		int r = (int)(t%26);						//è½¬åŒ–æˆ [0,25] ä¹‹é—´çš„æ•°
 		
 		//int r = (int) (Math.random()*26);
 		

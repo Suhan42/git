@@ -1,14 +1,14 @@
 package test;
 //3.26
-//Ò»¸öÀàÀïÃæÖ»ÓĞÒ»¸ö public Àà
-public class Ñ­»·Óï¾ä {
+//ä¸€ä¸ªç±»é‡Œé¢åªæœ‰ä¸€ä¸ª public ç±»
+public class å¾ªç¯è¯­å¥ {
 	public static void main(String []args) {
 		
-		//ÀÛ¼Óµ½m
+		//ç´¯åŠ åˆ°m
 		int n1=0, m=20;
 		n1=(1+m)*m/2;
 		System.out.println(n1);
-		//Êä³öĞÎ×´
+		//è¾“å‡ºå½¢çŠ¶
 		int n=10;
 		Gra ga = new Gra(n);
 		ga.putout();

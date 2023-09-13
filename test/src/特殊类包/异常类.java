@@ -1,38 +1,38 @@
-package ÌØÊâÀà°ü;
+package ç‰¹æ®Šç±»åŒ…;
 //5.11
-public class Òì³£Àà {
+public class å¼‚å¸¸ç±» {
 
 	public static void main(String[] args) {
 		
 		int a=1, b=2, c=3;
 		
 		try {
-			a = Integer.parseInt("1234");	//°Ñ´®×ª»»³ÉÊı
-			b = Integer.parseInt("a123");	//ÕâÀï´®ÀïÃæÓĞ×ÖÄ¸ËùÒÔ³ö´íÁË£¬Ò²¾ÍÃ»ÓĞ¸³Öµ
-			c = 12;			//ÒòÎªÉÏÃæÒ»ĞĞ³ö´íÁË£¬ËùÒÔÖ±½Ócatch£¬ÕâÒ»ĞĞ¾ÍÃ»ÓĞÖ´ĞĞ
+			a = Integer.parseInt("1234");	//æŠŠä¸²è½¬æ¢æˆæ•°
+			b = Integer.parseInt("a123");	//è¿™é‡Œä¸²é‡Œé¢æœ‰å­—æ¯æ‰€ä»¥å‡ºé”™äº†ï¼Œä¹Ÿå°±æ²¡æœ‰èµ‹å€¼
+			c = 12;			//å› ä¸ºä¸Šé¢ä¸€è¡Œå‡ºé”™äº†ï¼Œæ‰€ä»¥ç›´æ¥catchï¼Œè¿™ä¸€è¡Œå°±æ²¡æœ‰æ‰§è¡Œ
 		}
 		catch(NumberFormatException e){
 			System.out.println(e.getMessage()+"\n");
-			//e.printStackTrace();	//Ö±½Ó±¨´í
+			//e.printStackTrace();	//ç›´æ¥æŠ¥é”™
 		}
-		//Exception ÊÇËùÓĞÒì³£ÀàµÄ¸¸Àà£¬¶¼¿ÉÒÔ²¶»ñµ½
+		//Exception æ˜¯æ‰€æœ‰å¼‚å¸¸ç±»çš„çˆ¶ç±»ï¼Œéƒ½å¯ä»¥æ•è·åˆ°
 		catch(Exception e){
 			System.out.println(e.getMessage()+"\n");
 		}
 		
-		//finally×ÓÓï¾ä£¬ÎŞÂÛtryÊÇ·ñÒì³££¬¶¼»áÖ´ĞĞfinallyÓï¾ä
+		//finallyå­è¯­å¥ï¼Œæ— è®ºtryæ˜¯å¦å¼‚å¸¸ï¼Œéƒ½ä¼šæ‰§è¡Œfinallyè¯­å¥
 		finally {
 			System.out.println("a is "+a+"\nb is "+b+"\nc is "+c);
 		}
-//¹ÊÒâ²âÊÔ
+//æ•…æ„æµ‹è¯•
 		try {
-			System.out.println("¹ÊÒâÅ×³öÒì³£²âÊÔ");
-			throw new java.io.IOException("¹ÊÒâµÄ");		//throw Å×³öÒì³£
+			System.out.println("æ•…æ„æŠ›å‡ºå¼‚å¸¸æµ‹è¯•");
+			throw new java.io.IOException("æ•…æ„çš„");		//throw æŠ›å‡ºå¼‚å¸¸
 		}
 		catch(java.io.IOException e) {
-			System.out.println("·¢ÉúÒì³££º"+e.getMessage());
+			System.out.println("å‘ç”Ÿå¼‚å¸¸ï¼š"+e.getMessage());
 		}		
-//ÒıÓÃ²âÊÔ
+//å¼•ç”¨æµ‹è¯•
 		try {
 			hello();
 		}
@@ -43,6 +43,6 @@ public class Òì³£Àà {
 	
 	static void hello() throws Exception  {
 			System.out.println("helloword");
-			throw new java.io.IOException("I/OÒ²ÊÇ¹ÊÒâÅ×³öÒì³£");
+			throw new java.io.IOException("I/Oä¹Ÿæ˜¯æ•…æ„æŠ›å‡ºå¼‚å¸¸");
 	}
 }

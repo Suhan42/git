@@ -2,16 +2,16 @@ package eg;
 //5.21
 import java.util.Scanner;
 
-public class ´®µÄ¼ÓÃÜ {
-	//passwdÊÇÃÜÔ¿
+public class ä¸²çš„åŠ å¯† {
+	//passwdæ˜¯å¯†é’¥
 	static String encrypt(String sourceString, String passwd) {
-		char []p = passwd.toCharArray();				//toCharArray() °Ñ´®×ª»¯³É×Ö·ûÊı×é
+		char []p = passwd.toCharArray();				//toCharArray() æŠŠä¸²è½¬åŒ–æˆå­—ç¬¦æ•°ç»„
 		int n = p.length;
 		char []s = sourceString.toCharArray();
 		int m = s.length;
 		
 		for(int i=0; i<m; i++) {
-			int demo = s[i]+p[i%n];					//i%n µ±i==nÊ±ÓÖ±ä³É0£¬ĞÎ³É»·
+			int demo = s[i]+p[i%n];					//i%n å½“i==næ—¶åˆå˜æˆ0ï¼Œå½¢æˆç¯
 			s[i] = (char)demo;
 		}
 		return new String(s);
@@ -31,18 +31,18 @@ public class ´®µÄ¼ÓÃÜ {
 	}
 	
 	public static void main(String[] args) {
-		String sourceString = "½âÃÜÊ§°Ü£¨Ğ¦£©";
-		System.out.println("ÄÚÈİ£º"+sourceString);
+		String sourceString = "è§£å¯†å¤±è´¥ï¼ˆç¬‘ï¼‰";
+		System.out.println("å†…å®¹ï¼š"+sourceString);
 		
 		Scanner scanner = new Scanner(System.in);
 		String passwd = scanner.nextLine();
 		scanner.close();
 		
 		String secret = encrypt(sourceString, passwd);
-		System.out.println("ÃÜÎÄ£º"+secret);
+		System.out.println("å¯†æ–‡ï¼š"+secret);
 		
 		String source = decrypt(secret, passwd);
-		System.out.println("Ã÷ÎÄ£º"+source);
+		System.out.println("æ˜æ–‡ï¼š"+source);
 		
 				
 

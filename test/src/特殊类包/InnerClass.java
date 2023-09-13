@@ -1,9 +1,9 @@
-package ÌØÊâÀà°ü;
+package ç‰¹æ®Šç±»åŒ…;
 //5.7
 
-//ÕâÊÇÍâ²¿Àà
+//è¿™æ˜¯å¤–éƒ¨ç±»
 public class InnerClass {
-	A aa;	//ÄÚ²¿ÀàÉùÃ÷¶ÔÏó
+	A aa;	//å†…éƒ¨ç±»å£°æ˜å¯¹è±¡
 	B bb;
 	InnerClass(){
 		aa = new A(2);
@@ -15,7 +15,7 @@ public class InnerClass {
 			bb.out();
 	}
 
-//ÄÚ²¿ÀàÉùÃ÷¡¢³ÉÔ±Àà
+//å†…éƒ¨ç±»å£°æ˜ã€æˆå‘˜ç±»
 	class A{
 		int a;
 		A(int n){
@@ -26,8 +26,8 @@ public class InnerClass {
 		}
 	}
 
-//·ÇÄÚ²¿Àà²»¿ÉÒÔÊÇ¾²Ì¬£¨staric£©Àà
-//¾²Ì¬ÄÚ²¿Àà
+//éå†…éƒ¨ç±»ä¸å¯ä»¥æ˜¯é™æ€ï¼ˆstaricï¼‰ç±»
+//é™æ€å†…éƒ¨ç±»
 	static class B{
 		int b;
 		B(int n){
@@ -39,7 +39,7 @@ public class InnerClass {
 	}
 }
 
-//ÄäÃûÀà£¨Ö»ÓĞÀàÌå£¬Ã»ÓĞÀàÉùÃ÷£©
+//åŒ¿åç±»ï¼ˆåªæœ‰ç±»ä½“ï¼Œæ²¡æœ‰ç±»å£°æ˜ï¼‰
 abstract class Anonymous{
 	void out() {}
 }

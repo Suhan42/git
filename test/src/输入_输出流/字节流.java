@@ -1,8 +1,8 @@
-package ÊäÈë_Êä³öÁ÷;
+package è¾“å…¥_è¾“å‡ºæµ;
 //5.28
 import java.io.*;
 
-public class ×Ö½ÚÁ÷ {
+public class å­—èŠ‚æµ {
 	public static void main(String[] args) throws IOException {
 		
 		int n=-1;
@@ -10,20 +10,20 @@ public class ×Ö½ÚÁ÷ {
 		
 		File f = new File("txt/example.txt");
 		
-//Êä³öÁ÷ ÊÇÍùÎÄ¼şÄÚÊäÈë
-		byte []b = "hello world!".getBytes("UTF-8");			//getBytes°ÑÇ°Ãæ×ª»»³É×Ö½Ú£¬Ê¹ÓÃutf-8
-			//FileOutputStreamÊÇOutputStreamµÄ×ÓÀà£¬×Ö½ÚÊä³öÁ÷
-		OutputStream out = new FileOutputStream(f);		//ÕâÀïºóÃæ¼ÓÉÏtrueÖ¸µÄÊÇÔÚÔ­ÓĞÎÄ±¾ºóÃæÌí¼ÓÄÚÈİ£¬²»È»»á¸²¸ÇÔ­ÓĞÊı¾İ
-		System.out.println(f.getName()+"ÏÖÔÚµÄ´óĞ¡ÊÇ£º"+f.length()+"×Ö½Ú");
-		out.write(b);		//Ğ´ÈëÄÚÈİ
-		out.close();		//¹Ø±ÕÊä³öÁ÷
+//è¾“å‡ºæµ æ˜¯å¾€æ–‡ä»¶å†…è¾“å…¥
+		byte []b = "hello world!".getBytes("UTF-8");			//getBytesæŠŠå‰é¢è½¬æ¢æˆå­—èŠ‚ï¼Œä½¿ç”¨utf-8
+			//FileOutputStreamæ˜¯OutputStreamçš„å­ç±»ï¼Œå­—èŠ‚è¾“å‡ºæµ
+		OutputStream out = new FileOutputStream(f);		//è¿™é‡Œåé¢åŠ ä¸ŠtrueæŒ‡çš„æ˜¯åœ¨åŸæœ‰æ–‡æœ¬åé¢æ·»åŠ å†…å®¹ï¼Œä¸ç„¶ä¼šè¦†ç›–åŸæœ‰æ•°æ®
+		System.out.println(f.getName()+"ç°åœ¨çš„å¤§å°æ˜¯ï¼š"+f.length()+"å­—èŠ‚");
+		out.write(b);		//å†™å…¥å†…å®¹
+		out.close();		//å…³é—­è¾“å‡ºæµ
 		
 		
 		
-//ÊäÈëÁ÷ ÊÇ´ÓÎÄ¼şÍùÍâ¶ÁÈ¡
+//è¾“å…¥æµ æ˜¯ä»æ–‡ä»¶å¾€å¤–è¯»å–
 		@SuppressWarnings("resource")
-		InputStream in = new FileInputStream(f);		//FileInputStreamÊÇInputStreamµÄ×ÓÀà£¬×Ö½ÚÊäÈëÁ÷
-		while( (n=in.read(a,0,10)) != -1) {				//´Ó0µ½10
+		InputStream in = new FileInputStream(f);		//FileInputStreamæ˜¯InputStreamçš„å­ç±»ï¼Œå­—èŠ‚è¾“å…¥æµ
+		while( (n=in.read(a,0,10)) != -1) {				//ä»0åˆ°10
 			String s = new String(a,0,n);
 			System.out.println(s);
 		}

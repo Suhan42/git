@@ -1,25 +1,25 @@
 package eg;
 //6.11
 import java.util.Scanner;
-//random²úÉúËæ»ú [0,1)Ö®¼äµÄÊı
+//randomäº§ç”Ÿéšæœº [0,1)ä¹‹é—´çš„æ•°
 public class Random_out {
-	//Êä³ön-mÖ®¼äµÄËæ»úÊı
+	//è¾“å‡ºn-mä¹‹é—´çš„éšæœºæ•°
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.println("ÊäÈë¿ªÍ·½áÎ²£¨Êı×Ö£©£º");
+		System.out.println("è¾“å…¥å¼€å¤´ç»“å°¾ï¼ˆæ•°å­—ï¼‰ï¼š");
 		int n, m;
 		n = in.nextInt();
 		m = in.nextInt();
 		in.close();
 		
 		if(n>m) {
-			System.err.println("m>n");	//±¨´í
-			System.exit(0); 		//0ÊÇÕı³£Êä³ö£¬²»ÊÇ0¾ÍÊÇ·ÇÕı³£Êä³ö
+			System.err.println("m>n");	//æŠ¥é”™
+			System.exit(0); 		//0æ˜¯æ­£å¸¸è¾“å‡ºï¼Œä¸æ˜¯0å°±æ˜¯éæ­£å¸¸è¾“å‡º
 		}
 		int r;
 		
-	//»ñÈ¡Ëæ»ú
-		System.out.println("ÔÚ[n,m):");
+	//è·å–éšæœº
+		System.out.println("åœ¨[n,m):");
 		for(int i=0; i<10; i++) {
 			r = (int)(Math.random()*(m-n) )+n;
 			System.out.print(r+" ");
@@ -27,7 +27,7 @@ public class Random_out {
 		System.out.println();
 		
 		
-		System.out.println("ÔÚ[n,m]:");
+		System.out.println("åœ¨[n,m]:");
 		for(int i=0; i<10; i++) {
 			r = (int)(Math.random()*(m-n+1) )+n;
 			System.out.print(r+" ");

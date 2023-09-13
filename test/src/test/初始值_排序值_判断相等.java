@@ -3,29 +3,29 @@ package test;
 //import java.lang.reflect.Array;
 
 /*
- * ÃüÁîĞĞ²ÎÊı ´«µİ²ÎÊıµ½ args
- * ÔÚrunÀïÃæµÄconfi...
+ * å‘½ä»¤è¡Œå‚æ•° ä¼ é€’å‚æ•°åˆ° args
+ * åœ¨runé‡Œé¢çš„confi...
 */
-public class ³õÊ¼Öµ_ÅÅĞòÖµ_ÅĞ¶ÏÏàµÈ {
+public class åˆå§‹å€¼_æ’åºå€¼_åˆ¤æ–­ç›¸ç­‰ {
 	public static void main(String []args) {
 		System.out.println(args.length);
 		
 		for(String s:args) {//for(int i=0; i!=args.length; i++) {
 			System.out.println(s);//System.out.println(args[i]);
 		}
-	//ÅĞ¶ÏÏàµÈ
+	//åˆ¤æ–­ç›¸ç­‰
 		int a[]= {1, 2, 3};
 		int b[]= {4, 5, 6};
 		int c[]= {1, 2, 3};
-		System.out.println(a==b);//ÅĞ¶ÏÊÇ·ñÏàµÈ£¬·µ»Øtrue or false
-		System.out.println(a==c);//ÅĞ¶ÏµØÖ·
-		System.out.println(c[1]==a[1]);//ÅĞ¶ÏÔªËØ
+		System.out.println(a==b);//åˆ¤æ–­æ˜¯å¦ç›¸ç­‰ï¼Œè¿”å›true or false
+		System.out.println(a==c);//åˆ¤æ–­åœ°å€
+		System.out.println(c[1]==a[1]);//åˆ¤æ–­å…ƒç´ 
 		
 	
-		//ÖµµÄÎÊÌâ
+		//å€¼çš„é—®é¢˜
 		int[] grades=new int[20];
 		for(int i=0; i!=grades.length; i++) {
-			grades[i]=(int)(Math.random()*41)+60;//Ëæ»úÊı(1-100Ö®¼ä)
+			grades[i]=(int)(Math.random()*41)+60;//éšæœºæ•°(1-100ä¹‹é—´)
 		}
 		for(int grade:grades) {
 			System.out.print(grade+" ");

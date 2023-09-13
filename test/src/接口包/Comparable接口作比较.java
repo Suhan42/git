@@ -1,16 +1,16 @@
-package ½Ó¿Ú°ü;
+package æ¥å£åŒ…;
 //4.30
 import java.util.Arrays;
 
-public class Comparable½Ó¿Ú×÷±È½Ï {
+public class Comparableæ¥å£ä½œæ¯”è¾ƒ {
 	public static void main(String []args) {
 		
-//Comparable ÊÇ½Ó¿ÚÃû×Ö
+//Comparable æ˜¯æ¥å£åå­—
 		Comparable<String> s1 = "hello";
 		String s2 = "zzzzz";
 		String s3 = "helloo";
 		
-//compareTo()º¯ÊıÓÃÓÚ×ö±È¶Ô
+//compareTo()å‡½æ•°ç”¨äºåšæ¯”å¯¹
 		int result = s1.compareTo(s2);		//s1-s2
 		int result2 = s1.compareTo(s3);
 		
@@ -20,11 +20,11 @@ public class Comparable½Ó¿Ú×÷±È½Ï {
 
 		String[] sun = {"mjn", "kmf", "lkg", "idnfd", "dsnhf"};
 		
-//ÅÅĞò(Ç°ÌáÊÇÓĞ×ÔÈ»Ë³Ğò)
+//æ’åº(å‰ææ˜¯æœ‰è‡ªç„¶é¡ºåº)
 		Arrays.sort(sun);
 		
 		
-		//Êä³ö
+		//è¾“å‡º
 		for(String s:sun) {
 			System.out.println(s);
 		}

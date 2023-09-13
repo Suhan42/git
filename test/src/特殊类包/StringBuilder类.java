@@ -1,14 +1,14 @@
-package ÌØÊâÀà°ü;
+package ç‰¹æ®Šç±»åŒ…;
 //5.21
 
-//ÒòÎªÔÚ´ó¶àÊıÊµÏÖÖĞ£¬Ëü±È StringBuffer Òª¿ì
+//å› ä¸ºåœ¨å¤§å¤šæ•°å®ç°ä¸­ï¼Œå®ƒæ¯” StringBuffer è¦å¿«
 /*
- * StringBufferºÍStringBuilderÀàµÄ¶ÔÏóÄÜ¹»±»¶à´ÎµÄĞŞ¸Ä£¬²¢ÇÒ²»²úÉúĞÂµÄÎ´Ê¹ÓÃ¶ÔÏó¡£
- * ËüºÍStringBufferÖ®¼äµÄ×î´ó²»Í¬ÔÚÓÚ£ºStringBuilderµÄ·½·¨²»ÊÇÏß³Ì°²È«µÄ£¨²»ÄÜÍ¬²½·ÃÎÊ£©¡£
- * ÓÉÓÚ StringBuilder Ïà½ÏÓÚ StringBuffer ÓĞËÙ¶ÈÓÅÊÆ£¬ËùÒÔ¶àÊıÇé¿öÏÂ½¨ÒéÊ¹ÓÃ StringBuilder Àà¡£
- * È»¶øÔÚÓ¦ÓÃ³ÌĞòÒªÇóÏß³Ì°²È«µÄÇé¿öÏÂ£¬Ôò±ØĞëÊ¹ÓÃ StringBuffer Àà¡£
+ * StringBufferå’ŒStringBuilderç±»çš„å¯¹è±¡èƒ½å¤Ÿè¢«å¤šæ¬¡çš„ä¿®æ”¹ï¼Œå¹¶ä¸”ä¸äº§ç”Ÿæ–°çš„æœªä½¿ç”¨å¯¹è±¡ã€‚
+ * å®ƒå’ŒStringBufferä¹‹é—´çš„æœ€å¤§ä¸åŒåœ¨äºï¼šStringBuilderçš„æ–¹æ³•ä¸æ˜¯çº¿ç¨‹å®‰å…¨çš„ï¼ˆä¸èƒ½åŒæ­¥è®¿é—®ï¼‰ã€‚
+ * ç”±äº StringBuilder ç›¸è¾ƒäº StringBuffer æœ‰é€Ÿåº¦ä¼˜åŠ¿ï¼Œæ‰€ä»¥å¤šæ•°æƒ…å†µä¸‹å»ºè®®ä½¿ç”¨ StringBuilder ç±»ã€‚
+ * ç„¶è€Œåœ¨åº”ç”¨ç¨‹åºè¦æ±‚çº¿ç¨‹å®‰å…¨çš„æƒ…å†µä¸‹ï¼Œåˆ™å¿…é¡»ä½¿ç”¨ StringBuffer ç±»ã€‚
  */
-public class StringBuilderÀà {
+public class StringBuilderç±» {
 	public static void main(String[] args) {
 		
 		StringBuffer sBuffer = new StringBuffer("java student:");

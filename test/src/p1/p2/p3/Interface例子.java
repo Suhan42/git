@@ -1,5 +1,5 @@
 package p1.p2.p3;
 //4.27
-public interface InterfaceÀı×Ó {
+public interface Interfaceä¾‹å­ {
 	double r = 2.4;
 }

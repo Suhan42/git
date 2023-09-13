@@ -1,24 +1,29 @@
-package ÌØÊâÀà°ü;
+package ç‰¹æ®Šç±»åŒ…;
 //5.25
 import java.util.Random;
 
-public class RandomÀà {
-	//random²úÉúËæ»ú0~1Ö®¼äµÄÊı
+public class Randomç±» {
+	//randomäº§ç”Ÿéšæœº[0,1)ä¹‹é—´çš„æ•°
 	public static void main(String[] args) {
-		//Ëæ»úÊı
-		int[] nm = new int[10];
+		//éšæœºæ•°
+		int[] nm = new int[5];
 		for(int i=0;i<nm.length; i++) {
-			nm[i] = (int)(Math.random()*21)+80;	//Ëæ»úÔÚ(80-100]Ö®¼ä
+			nm[i] = (int)(Math.random()*20)+80;	//éšæœºåœ¨[80,100)ä¹‹é—´
+		}
+		for(int r1 : nm) {
+			System.out.print(r1+" ");
 		}
 		
-		Random r1 = new Random(123);	//ÕâÀï123ÊÇÖÖ×Ó£¬Èç¹ûÁ½¸öÖÖ×ÓÒ»Ñù£¬Ëæ»ú½á¹û¾ÍÒ»Ñù
+		System.out.print("\n");
+		
+		Random r = new Random(123);	//è¿™é‡Œ123æ˜¯ç§å­ï¼Œå¦‚æœä¸¤ä¸ªç§å­ä¸€æ ·ï¼Œéšæœºç»“æœå°±ä¸€æ ·
 		
 		int i=0;
 		while(true) {
 			i++;
-			int r = r1.nextInt(100);
-			System.out.print(r+" ");
-			if(i==10) break;
+			int r2 = r.nextInt(100);
+			System.out.print(r2+" ");
+			if(i==5) break;
 		}
 	}
 }

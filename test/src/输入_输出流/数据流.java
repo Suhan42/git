@@ -1,14 +1,14 @@
-package ÊäÈë_Êä³öÁ÷;
+package è¾“å…¥_è¾“å‡ºæµ;
 //6.8
 import java.io.*;
-//Êı¾İÁ÷Í¨³£ÓÃÀ´É¸Ñ¡
-public class Êı¾İÁ÷{
+//æ•°æ®æµé€šå¸¸ç”¨æ¥ç­›é€‰
+public class æ•°æ®æµ{
 	public static void main(String[] args) {
 		
 		File file = new File("txt/shuju.txt");
 		
 		try{ 
-			FileOutputStream fos = new FileOutputStream(file);			//outÊä³öÁ÷
+			FileOutputStream fos = new FileOutputStream(file);			//outè¾“å‡ºæµ
 			@SuppressWarnings("resource")
 			DataOutputStream outData = new DataOutputStream(fos);
 			
@@ -22,20 +22,20 @@ public class Êı¾İÁ÷{
 		catch (IOException e){ }
 
 		
-	//ÕâÀïÊäÈëÊ±£¬±ØĞë°´ÕÕÉÏÃæÊä³öµÄË³Ğò£¬²»È»¾Í»á¶Á´í
+	//è¿™é‡Œè¾“å…¥æ—¶ï¼Œå¿…é¡»æŒ‰ç…§ä¸Šé¢è¾“å‡ºçš„é¡ºåºï¼Œä¸ç„¶å°±ä¼šè¯»é”™
 		try{
-			FileInputStream fis = new FileInputStream(file);			//inÊäÈëÁ÷
+			FileInputStream fis = new FileInputStream(file);			//inè¾“å…¥æµ
 			@SuppressWarnings("resource")
 			DataInputStream inData = new DataInputStream(fis);
 			
-			System.out.println(inData.readInt());		//¶ÁÈ¡intÊı¾İ
-			System.out.println(inData.readLong());		//¶ÁÈ¡longÊı¾İ
-			System.out.println(inData.readFloat()); 	//¶ÁÈ¡floatÊı¾İ
-			System.out.println(inData.readDouble());	//¶ÁÈ¡doubleÊı¾İ
-			System.out.println(inData.readBoolean());	//¶ÁÈ¡booleanÊı¾İ
+			System.out.println(inData.readInt());		//è¯»å–intæ•°æ®
+			System.out.println(inData.readLong());		//è¯»å–longæ•°æ®
+			System.out.println(inData.readFloat()); 	//è¯»å–floatæ•°æ®
+			System.out.println(inData.readDouble());	//è¯»å–doubleæ•°æ®
+			System.out.println(inData.readBoolean());	//è¯»å–booleanæ•°æ®
 			
 			char c='\0';
-			while( (c=inData.readChar()) !='\0') { 		//'\0'±íÊ¾¿Õ×Ö·û
+			while( (c=inData.readChar()) !='\0') { 		//'\0'è¡¨ç¤ºç©ºå­—ç¬¦
 				System.out.print(c) ;
 			}
 		}

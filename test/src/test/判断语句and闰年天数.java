@@ -1,7 +1,7 @@
 package test;
 //3.23
 import java.util.Scanner;
-public class ÅĞ¶ÏÓï¾äandÈòÄêÌìÊı {
+public class åˆ¤æ–­è¯­å¥andé—°å¹´å¤©æ•° {
 	public static void main(String []args) {
 		Scanner A=new Scanner(System.in);
 		
@@ -15,7 +15,7 @@ public class ÅĞ¶ÏÓï¾äandÈòÄêÌìÊı {
 		int days;
 		days=dayIn(year, month);
 		
-		System.out.println(year+"Äê"+month+"ÔÂÓĞ "+" "+days+"Ìì");
+		System.out.println(year+"å¹´"+month+"æœˆæœ‰ "+" "+days+"å¤©");
 	}
 
 	public static int dayIn(int year, int month) {

@@ -1,7 +1,7 @@
 package test;
 
 //import java.util.Scanner;
-import java.util.*;//°ÑÕâ¸ö°üÀïÃæµÄÈ«²¿ÄÃ³öÀ´£¬µ«ÊÇËüÖ»µ¼ÈëÕâÒ»²ãÀïÃæµÄ°ü£¬Èç¹û»¹ÓĞ×Ó°ü¾Í²»µ¼ÈëÁË
+import java.util.*;//æŠŠè¿™ä¸ªåŒ…é‡Œé¢çš„å…¨éƒ¨æ‹¿å‡ºæ¥ï¼Œä½†æ˜¯å®ƒåªå¯¼å…¥è¿™ä¸€å±‚é‡Œé¢çš„åŒ…ï¼Œå¦‚æœè¿˜æœ‰å­åŒ…å°±ä¸å¯¼å…¥äº†
 
 public class ex1 {
 	public static void main(String args[]){
@@ -11,22 +11,22 @@ public class ex1 {
 		
 		//Data da=new Data();
 		
-		//Ò²¿ÉÒÔÊ¹ÓÃ Êı¾İÀàĞÍ£¬±ÈÈçÀàĞÍint->Integer(Àà)
+		//ä¹Ÿå¯ä»¥ä½¿ç”¨ æ•°æ®ç±»å‹ï¼Œæ¯”å¦‚ç±»å‹int->Integer(ç±»)
 		Integer sum=42;
-		System.out.println("ÊäÈëÒ»¸öÊı×Ö£º");
+		System.out.println("è¾“å…¥ä¸€ä¸ªæ•°å­—ï¼š");
 		int x=reader.nextInt();
 		
 		String s1, s2;
-		System.out.println("ÊäÈëÁ½¸ö´®£¨Ê¹ÓÃ¿Õ¸ñ¸ô¿ª£©£º");
+		System.out.println("è¾“å…¥ä¸¤ä¸ªä¸²ï¼ˆä½¿ç”¨ç©ºæ ¼éš”å¼€ï¼‰ï¼š");
 		s1=reader.next();
 		s2=reader.nextLine();
 		
-		reader.close();	//ÊäÈëÍêÔÙclose¹Ø±Õ£¬²»È»»á¾¯¸æ
+		reader.close();	//è¾“å…¥å®Œå†closeå…³é—­ï¼Œä¸ç„¶ä¼šè­¦å‘Š
 		
 		System.out.println(x+" suhan "+sum);
 		System.out.println(s1+" and "+s2);
 		
-		boolean bool = s1 instanceof String;//instanceof ÔËËã·ûÅĞ¶ÏÇ°ÃæµÄ¶ÔÏóÊô²»ÊôÓÚºóÃæµÄÀà(ºóÃæµÄÀàÒ²¿ÉÒÔÊÇ¸¸Àà),ÊôÓÚµÄ»°·µ»Øtrue,·ñÔòfalse
+		boolean bool = s1 instanceof String;//instanceof è¿ç®—ç¬¦åˆ¤æ–­å‰é¢çš„å¯¹è±¡å±ä¸å±äºåé¢çš„ç±»(åé¢çš„ç±»ä¹Ÿå¯ä»¥æ˜¯çˆ¶ç±»),å±äºçš„è¯è¿”å›true,å¦åˆ™false
 		boolean bool2 = sum instanceof Object;
 		System.out.println(bool+" "+bool2);
 	}

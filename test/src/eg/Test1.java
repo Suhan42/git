@@ -10,13 +10,13 @@ public class Test1 {
 		stu[2] = new Student("1432", "python");
 		stu[3] = new Student("2353", "web");
 
-		//排序
+		//鎺掑簭
 		Arrays.sort(stu);
 		for(Student s:stu) {
-			System.out.println(s);		//虽然放的是一个对象，但是这里自动调用 toString
+			System.out.println(s);		//铏界劧鏀剧殑鏄竴涓璞★紝浣嗘槸杩欓噷鑷姩璋冪敤 toString
 		}
 		
-		//判等
+		//鍒ょ瓑
 		System.out.println(stu[0].equals(stu[3]));
 	}
 }

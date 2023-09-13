@@ -1,6 +1,6 @@
-package ½Ó¿Ú°ü;
+package æ¥å£åŒ…;
 //4.27
 
-public interface Iarea extends InterfaceÀı×ÓPI {
+public interface Iarea extends Interfaceä¾‹å­PI {
 	double area();
 }

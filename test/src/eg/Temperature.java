@@ -2,8 +2,8 @@ package eg;
 //6.11
 import java.util.Scanner;
 
-/*¼òµ¥ÎÂ¶È¼ÆËã
- * Q = M*(ÖÕÖ¹t - ³õÊ¼t)*4184
+/*ç®€å•æ¸©åº¦è®¡ç®—
+ * Q = M*(ç»ˆæ­¢t - åˆå§‹t)*4184
  */
 public class Temperature {
 	public static void main(String[] args) {

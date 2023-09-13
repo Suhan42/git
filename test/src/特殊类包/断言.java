@@ -1,15 +1,15 @@
-package ÌØÊâÀà°ü;
+package ç‰¹æ®Šç±»åŒ…;
 //5.14
-public class ¶ÏÑÔ {
-//µ÷ÊÔµÄÊ±ºòÓĞÓÃ
+public class æ–­è¨€ {
+//è°ƒè¯•çš„æ—¶å€™æœ‰ç”¨
 	
 	public static void main(String[] args) {
 		int [] score= {12, 200, 12, -12};
 		int sum=0;
 		for(int number:score) {
-			//¶ÏÑÔ£¬ÔÚÔËĞĞÊ±²»¿ÉÓÃ
-			//Run Configurations/Arguments/VM arguments: -eaÆô¶¯µ÷ÊÔ
-			assert number > 0:"²»ÄÜÊÇ¸ºÊı";		//¶ÏÑÔ
+			//æ–­è¨€ï¼Œåœ¨è¿è¡Œæ—¶ä¸å¯ç”¨
+			//Run Configurations/Arguments/VM arguments: -eaå¯åŠ¨è°ƒè¯•
+			assert number > 0:"ä¸èƒ½æ˜¯è´Ÿæ•°";		//æ–­è¨€
 			sum = sum+number;
 		}
 		System.out.println(sum);

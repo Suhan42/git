@@ -1,6 +1,6 @@
 package test;
 //4.6
-public class Class×éºÏºÍ¸´ÓÃ {
+public class Classç»„åˆå’Œå¤ç”¨ {
 	public static void main(String []args) {
 		SIM s1 = new SIM("19510187956");
 		SIM s2 = new SIM("110-120-119");
@@ -11,7 +11,7 @@ public class Class×éºÏºÍ¸´ÓÃ {
 		p.getPhone2();
 	}
 }
-//Ë«¿¨ÊÖ»ú
+//åŒå¡æ‰‹æœº
 class Phone{
 	SIM sim1, sim2;
 	void setSIM1(SIM sim1) {
@@ -27,7 +27,7 @@ class Phone{
 		sim2.getSIM();
 	}
 }
-//SIM¿¨
+//SIMå¡
 class SIM{
 	String h;
 	SIM(String h){

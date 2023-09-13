@@ -1,15 +1,15 @@
 package test;
 //4.20 4.23
-public class ×ÓÀà¸¸Àà extends Object {
+public class å­ç±»çˆ¶ç±» extends Object {
 	public static void main(String []args) {
 		
 		Object o1 = new Object();
-		//Èç¹ûo1 = 1; ¾ÍÊä³öÄÚÈİ
+		//å¦‚æœo1 = 1; å°±è¾“å‡ºå†…å®¹
 		
-		//to.String()ÊÇ×Ô¶¯µ÷ÓÃµÄ
+		//to.String()æ˜¯è‡ªåŠ¨è°ƒç”¨çš„
 		System.out.println(o1.toString());
-		//java.lang.Object@15db9742 ÕâºóÃæÊÇµØÖ·
-		Object t1 = new ×ÓÀà¸¸Àà();
+		//java.lang.Object@15db9742 è¿™åé¢æ˜¯åœ°å€
+		Object t1 = new å­ç±»çˆ¶ç±»();
 		System.out.println(t1);
 		
 		Son boy = new Son(2);
@@ -37,7 +37,7 @@ class Father {
 class Son extends Father{
 	int s;
 	
-//¸¸ÀàÀïÃæÒÑ¾­ÓĞÁË f£¬ÕâÀïÓÖ¶¨ÒåÁË£¬¾ÍÊÇ ¸²¸Ç£¨Override£©£¨³ÉÔ±±äÁ¿µÄÒş²Ø£©
+//çˆ¶ç±»é‡Œé¢å·²ç»æœ‰äº† fï¼Œè¿™é‡Œåˆå®šä¹‰äº†ï¼Œå°±æ˜¯ è¦†ç›–ï¼ˆOverrideï¼‰ï¼ˆæˆå‘˜å˜é‡çš„éšè—ï¼‰
 	
 	int f=123;	
 	
@@ -46,10 +46,10 @@ class Son extends Father{
 		this.s=s;
 	}
 	void setf(int f){
-		super.f=f;	//super²Ù×÷±»Òş²ØµÄ£¬Ö»ÄÜÍùÉÏÒ»²ã¸¸Àà
+		super.f=f;	//superæ“ä½œè¢«éšè—çš„ï¼Œåªèƒ½å¾€ä¸Šä¸€å±‚çˆ¶ç±»
 	}
 	
-//·½·¨Ò²ÓĞ ·½·¨ÖØĞ´	
+//æ–¹æ³•ä¹Ÿæœ‰ æ–¹æ³•é‡å†™	
 	void out() {
 		System.out.println("s is:"+s);
 		System.out.println("f is:"+super.f);

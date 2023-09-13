@@ -1,18 +1,18 @@
-package ÌØÊâÀà°ü;
+package ç‰¹æ®Šç±»åŒ…;
 //5.7
-public class ÄÚ²¿Ààµ÷ÓÃ {
+public class å†…éƒ¨ç±»è°ƒç”¨ {
 	public static void main(String []args) {
 		InnerClass no = new InnerClass();
 		
 		InnerClass.A noa = no.new A(2);
-		//B ÊÇ¾²Ì¬µÄ
+		//B æ˜¯é™æ€çš„
 		InnerClass.B nob = new InnerClass.B(4);
 		
 		no.outclass();
 		noa.out();
 		nob.out();
 		
-		//ÄäÃûÀàµÄÖØĞ´
+		//åŒ¿åç±»çš„é‡å†™
 		Anonymous an = new Anonymous() {
 			void out() {
 				int num=2;

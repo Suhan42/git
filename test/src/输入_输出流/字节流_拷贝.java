@@ -1,10 +1,10 @@
-package ÊäÈë_Êä³öÁ÷;
+package è¾“å…¥_è¾“å‡ºæµ;
 //6.1
 import java.io.*;
 
-public class ×Ö½ÚÁ÷_¿½±´ {
+public class å­—èŠ‚æµ_æ‹·è´ {
 
-	//½«Ò»¸öÎÄ¼ş¿½±´µ½ÁíÒ»¸öÎÄ¼ş
+	//å°†ä¸€ä¸ªæ–‡ä»¶æ‹·è´åˆ°å¦ä¸€ä¸ªæ–‡ä»¶
 	public static void main(String[] args) {
 		int bufSize = 1024;
 		byte[] buf = new byte[bufSize];
@@ -14,9 +14,9 @@ public class ×Ö½ÚÁ÷_¿½±´ {
 		
 		try {
 			in = new FileInputStream("./demo\\src\\233.rar");
-			out = new FileOutputStream("./demo\\des\\3.rar");//²»»á×Ô¶¯Éú³ÉÎÄ¼ş¼Ğ
+			out = new FileOutputStream("./demo\\des\\3.rar");//ä¸ä¼šè‡ªåŠ¨ç”Ÿæˆæ–‡ä»¶å¤¹
 			
-			long start = System.currentTimeMillis();//¼ÆÊ±Æ÷
+			long start = System.currentTimeMillis();//è®¡æ—¶å™¨
 			
 			while( (len = in.read(buf)) != -1) {
 				out.write(buf, 0, len);

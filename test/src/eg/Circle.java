@@ -2,7 +2,7 @@ package eg;
 //6.11
 import java.util.Scanner;
 
-/*Ô²µÄ°ë¾¶r=10£¬ÅĞ¶ÏµãÔÚ²»ÔÚÔ²ÄÚ
+/*åœ†çš„åŠå¾„r=10ï¼Œåˆ¤æ–­ç‚¹åœ¨ä¸åœ¨åœ†å†…
 */
 public class Circle {
 	public static void main(String[] args) {

@@ -1,24 +1,24 @@
-package ½Ó¿Ú°ü;
+package æ¥å£åŒ…;
 //4.27
-/*½Ó¿Ú¿ÉÒÔËæÒâ¿ç°ü
-  * ½Ó¿Ú£¬ÀàËÆÓÚ¼Ì³Ğ
+/*æ¥å£å¯ä»¥éšæ„è·¨åŒ…
+  * æ¥å£ï¼Œç±»ä¼¼äºç»§æ‰¿
  */
-import p1.p2.p3.InterfaceÀı×Ó;
+import p1.p2.p3.Interfaceä¾‹å­;
 
-//ÓÃ , ÊµÏÖ¶à¸ö½Ó¿Ú
-public class ½Ó¿Ú{
+//ç”¨ , å®ç°å¤šä¸ªæ¥å£
+public class æ¥å£{
 	
 	public static void main(String []args) {
-		InterfaceÀı×Ó ex = new InterfaceClass();
-		double s = ( (InterfaceClass)ex).area();	//Ç¿ÖÆÀàĞÍ×ª»» Àà
-		System.out.println("Ô²ĞÎµÄÃæ»ı"+s);
+		Interfaceä¾‹å­ ex = new InterfaceClass();
+		double s = ( (InterfaceClass)ex).area();	//å¼ºåˆ¶ç±»å‹è½¬æ¢ ç±»
+		System.out.println("åœ†å½¢çš„é¢ç§¯"+s);
 	}
 }
 
 
 
-//ÕâÀïÊÇÒ»¸öÀàÀ´ÊµÏÖ½Ó¿Ú£¬Ò²¿ÉÒÔÓÃ¶à¸öÀàÀ´ÊµÏÖ½Ó¿Ú¶àÌ¬
-class InterfaceClass implements InterfaceÀı×Ó,Iarea{
+//è¿™é‡Œæ˜¯ä¸€ä¸ªç±»æ¥å®ç°æ¥å£ï¼Œä¹Ÿå¯ä»¥ç”¨å¤šä¸ªç±»æ¥å®ç°æ¥å£å¤šæ€
+class InterfaceClass implements Interfaceä¾‹å­,Iarea{
 	@Override
 	public double area() {
 		return pi*r*r;
