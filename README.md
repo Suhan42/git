@@ -4,9 +4,12 @@
 开发工具：Eclipse<br>
 Java版本：JDK 1.8<br>
 
+时间：2021年
+
 将 test 文件导入eclipse中就可以直接运行<br>
 
 [文件夹说明](https://github.com/Suhan42/Java-30-days/blob/master/test/README.md)
+
 ## 学习顺序
 #### 1.[test](https://github.com/Suhan42/Java-30-days/tree/master/test/src/test)：基本操作
 1. ex1
