@@ -35,6 +35,10 @@ p1p2p3是接口练习的一部分
 ##### 5.[其他例子](https://github.com/Suhan42/Java-30-days/tree/master/Eclipse/test/src/eg)
 
 
-### 其他
+#### 其他
 ##### [JDBC数据库连接](https://github.com/suhan42/Java-30-days/tree/master/Eclipse/JDBC)
 ##### [java线程](https://github.com/suhan42/Java-30-days/tree/master/Eclipse/Thread)
+
+
+
+### Idea版本
